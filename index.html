@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -42,8 +45,8 @@
                 section is good to be practice</p>
 
         </div>
-        <div class=" text-2xl md:text-2xl lg:text-6xl  leading-tight lg:px-14 lg:py-11">
-            <ul class="lg:text-left text[rgba(59,80,108,1)] text-6xl">
+        <div class=" text-2xl md:text-2xl lg:text-6xl  leading-tight lg:px-14 lg:py-11 ">
+            <ul class="lg:text-left  text-6xl text-[#3b506c] font-bold">
                 <li>Succesfully</li>
                 <li>complited</li>
                 <li>project & ideas</li>
@@ -53,7 +56,58 @@
     </section>
 
     <!--======footer section======= -->
-    div
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+                        Praesent libero. Sed cursus ante dapibus diam.</p>
+                </div>
+
+                <!-- Links Section -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                        <li><a href="#" class="hover:text-gray-400">Services</a></li>
+                        <li><a href="#" class="hover:text-gray-400">About</a></li>
+                        <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- ======Contact Section ====-->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="text-sm space-y-2">
+                        <li><span class="block">Email: info@example.com</span></li>
+                        <li><span class="block">Phone: (123) 456-7890</span></li>
+                        <li><span class="block">Address: 1234 Main Street, City</span></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Section -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4 block">
+                        <a href="#" class="text-xl hover:text-gray-400"><i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="#" class="text-xl hover:text-gray-400"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#" class="text-xl hover:text-gray-400"><i class="fab fa-instagram"></i> Instagram</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="bg-gray-900 text-center text-xs py-4 mt-8">
+            <p>&copy; 2024 Quick. All Rights Reserved.</p>
+        </div>
+    </footer>
+    </div>
 </body>
 
 </html>
